@@ -1,13 +1,11 @@
 package seedu.penus.modules;
 
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import seedu.penus.api.ModuleRetriever;
-import seedu.penus.exceptions.CourseIndexOutOfBoundsException;
 import seedu.penus.exceptions.DuplicateModuleException;
 import seedu.penus.exceptions.InvalidCommandException;
 import seedu.penus.exceptions.InvalidGradeException;
@@ -18,7 +16,6 @@ import seedu.penus.user.User;
 
 public class ModuleList {
     private final List<Module> modules;
-    private final User user;
     private final ResourceManager resource;
     private final List<String[]> moduleDetails;
 
